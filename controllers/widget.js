@@ -7,7 +7,8 @@ var args = _.extend({
 	elasticity: 0.5,
 	pushForce: 30,
 	usePhysicsEngine: true
-}, arguments[0] || {});
+
+}, $.args);
 
 var That = null;
 

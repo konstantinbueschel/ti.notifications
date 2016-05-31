@@ -1,16 +1,27 @@
-".caffeinaToastView":{
-	top: 0,
+'.caffeinaToastView':{
 	backgroundColor: '#A000',
 	height: 65,
 	touchEnabled: false,
 	layout: 'composite'
 },
-".caffeinaToastIcon":{
+
+'.caffeinaToastView[platform=ios]': {
+
+	top: 0
+}
+
+'.caffeinaToastView[platform=android]': {
+
+	bottom: 0
+}
+
+'.caffeinaToastIcon':{
 	left: 8,
 	height: 42,
 	borderRadius: 10
 },
-".caffeinaToastLabel":{
+
+'.caffeinaToastLabel':{
 	touchEnabled: false,
 	left: 60,
 	right: 10,
@@ -21,21 +32,27 @@
 		fontSize: 14
 	}
 },
-".caffeinaToastLabelWithoutIcon":{
+
+'.caffeinaToastLabelWithoutIcon':{
 	left: 10,
 },
-".caffeinaToastSuccess": {
+
+'.caffeinaToastSuccess': {
 	backgroundColor: '#8000df10'
 },
-".caffeinaToastError": {
+
+'.caffeinaToastError': {
 	backgroundColor: '#80FF0000'
 },
-".caffeinaToastInfo": {
+
+'.caffeinaToastInfo': {
 	backgroundColor: '#8000c0ff'
 },
-".caffeinaToastWarn": {
+
+'.caffeinaToastWarn': {
 	backgroundColor: '#80ffc000'
 },
-".caffeinaToastDefault": {
+
+'.caffeinaToastDefault': {
 	backgroundColor: '#8000c0ff'
 }
