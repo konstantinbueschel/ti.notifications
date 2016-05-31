@@ -1,6 +1,11 @@
 <Alloy autoStyle="true">
+
 	<View class="caffeinaToastView" id="caffeinaToastView">
+
 		<ImageView class="caffeinaToastIcon" id="caffeinaToastIcon" />
+
 		<Label class="caffeinaToastLabel" id="caffeinaToastLabel" />
+
 	</View>
+
 </Alloy>
